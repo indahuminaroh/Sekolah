@@ -1,0 +1,78 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+img{
+	width: 100%;
+	height: 50%;
+}
+.navbar{
+	border-radius: 0px;
+}
+.tengah h1{
+	margin: 250px auto;
+	color: white;
+	font-family: Demonized;
+	text-shadow: 3px 3px 10px black;
+}
+.tengah{
+	background-image: url(../img/absen.jpg);
+	background-size: 100%; 
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	margin: auto;
+}
+.portal{
+	width: 100%;
+	margin-top: 50px;
+	height: 50px;
+	border: 1px 1px 1px black;
+}
+h1{
+	font-family: Pacifico;
+}
+.datar{
+	width: 100%;
+	height: 400px;
+	background-color: transparent;
+}
+.menu_sekolah, .menu_siswa, .menu_spp{
+	width: 300px;
+	height: 350px;
+	background-color: white;
+	border-radius: 10px;
+	margin-top: 10px;
+	border: 3px solid black;
+}
+.menu_sekolah:hover{
+	border: 3px solid blue;
+}
+.menu_siswa:hover{
+	border: 3px solid blue;
+}
+.menu_spp:hover{
+	border: 3px solid blue;
+}
+img{
+	width: 250px;
+	height: 250px;
+}
+
+
+/*#footer{
+	background-color: black;
+	width: 100%;
+	height: 30px;
+	color: white;
+	clear: both;
+}*/
+/*Validasi Form*/
+.pesan_nis, .pesan_nama, .pesan_ttl, .pesan_jk, .pesan_alamat, .pesan_tahun_ajaran, .pesan_nama_ibu, .pesan_ttl_ibu, .pesan_nama_ayah, .pesan_ttl_ayah, .pesan_kelas, .pesan_masuk, .pesan_keluar, .pesan_spp{
+	display: none;
+	color: red;
+	margin: 10px;
+}
+#div-nama, #div-ttl, #div-jk, #div-alamat, #div-tahun_ajaran, #div-nama_ibu, #div-ttl_ibu, #div-nama_ayah, #div-ttl_ayah, #div-kelas, #div-masuk, #div-keluar, #div-spp{
+	display: none;
+}
